@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+/*========= base ===========*/
+
+html {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+  width: 380px;
+}
+
+h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  transition: .3s;
+  opacity: 0.6;
+}
+
+/*========= header ===========*/
+.header {width: 100%;}
+
+.header-icon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-left: 5%;
+}
+
+/*========= top ===========*/
+.top-img img {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.top-messarge {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  color: #EEE;
+  opacity: 0.7
+}
+
+.top-messarge h2 {
+  font-size: 40px;
+}
+
+.top-messarge h3{
+  width: 100%;
+  margin-left: 5%;
+  font-size: 15px;
+}
+
+/*========= contents ===========*/
+.contents-explain {
+  margin:80px 20px;
+  font-family: cursive;
+  font-size: 15px;
+  color: #777;
+}
+
+.containers {
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.content {
+  margin: 50px 0;
+  position: relative;
+}
+
+.content img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.content h2 {
+  position: absolute;
+  top: 32%;
+  left :35%;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+.drinking h2{
+    border: 2px solid #fff;
+    color: #EEE;
+}
+
+.eating h2{
+    border: 4px solid #770000;
+    color: #770000;
+}
+
+.traveling h2{
+    border: 4px solid #AAA;
+    color: #AAA;
+}
+
+.everyday h2{
+    border: 4px solid #CCC;
+    color: #CCC;
+}
+
+/*========= topic ===========*/
+.topics {
+  background-color: #EEE;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+.topic-title {
+  text-align:center;
+  margin-bottom: 50px;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+.topic {
+  margin-left: 5%;
+  margin-bottom: 80px;
+  font-family: cursive;
+}
+
+.topic img {
+  width: 95%;
+  height: 300px;
+}
+
+.topic h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.topic h3 {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/*========= footer ===========*/
+.footer {
+  margin-top: 20px;
+}
+
+.footer-top {
+  padding-top: 10px;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  border-top: 2px solid #000;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+.profile {
+  display: flex;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000;
+}
+
+.profile img {
+  width: 100px;
+  height :100px;
+  border-radius: 100%;
+}
+
+.profile h3 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.footer-bottom {
+  background-color: #EEE
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-left: 5%;
+}
+
+.footer-icon i {
+  margin-right: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 10px;
+  font-family: fantasy;
+  opacity: 0.7;
+}
