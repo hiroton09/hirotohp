@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sample1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+</head>
+<body>
+
+<!-- Home Section -->
+<div id="home">
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a href="#" class="navbar-brand">Sample1</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="#home" class="nav-link">トップページ</a>
+            </li>
+            <li class="nav-item">
+                <a href="#profile" class="nav-link">会社概要</a>
+            </li>
+            <li class="nav-item">
+                <a href="#business" class="nav-link">事業内容</a>
+            </li>
+            <li class="nav-item">
+                <a href="#recruitment" class="nav-link">採用情報</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">お問い合わせ</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section id="homeTitle" class="container">
+    <div class="row">
+        <h1 class="home_title text-center">プログラミング</h1>
+        <div class="home_content col-12">
+            <div class="bg col-7"></div>
+            <img id="homeImg"  src="img/home.jpg">
+        </div>
+    </div>
+</section>
+
+</div>
+<hr>
+
+<!-- Profile Section -->
+<div id="profile">
+
+<section class="container">
+    <div class="row">
+        <img class="col-md-6" src="img/profile.jpg">
+        <div class="profile_text col-md-6">
+            <h2 class="profile_title text-center">プログラミングとは</h2>
+            <p>本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。</p>
+        </div>
+    </div>
+</section>
+
+</div>
+<hr>
+
+<!-- Business Section -->
+<section class="container">
+    <h2 class="business_title text-center">事業内容</h2>
+    <ul id="business" class="row"></ul>
+</section>
+<hr>
+
+<!-- Recruitment Section -->
+<div id="recruitment">
+
+<section class="container">
+    <h2 class="recruit_title">採用内容</h2>
+    <img class="col-8 ml-4" src="img/recruitment.jpg">
+</section>
+
+</div>
+<hr>
+
+<!-- News Section -->
+<section class="container">
+    <div class="row">
+        <h3 class="news_title col-12 text-center">NEWS</h3>
+            <ul id="news" class="col-12"></ul>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<div id="contact">
+
+<section class="container">
+    <div class="row col-12">
+        <img src="img/footer.jpg" class="contact_img">
+        <div class="contact_content">
+            <h3 class="contact_name">XXX株式会社</h3>
+            <p class="contact_body">
+                〒000-0000<br>
+                東京都xxx区xxx<br>
+                Tel:000-0000-0000<br>
+                Fax:000-0000-0000
+            </p>
+        </div>
+    </div>
+</section>
+
+<hr class="footer_line">
+
+<div class="footer pb-4 text-center">
+    ©︎202002 Hiroton
+</div>
+
+<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(function() {
+        $('#profile').hide();
+        $('#profile').fadeIn(3000);
+    });
+</script>
+
+</body>
+
+</html>
+
+
+
+
