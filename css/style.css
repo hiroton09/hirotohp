@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+}
+h3 {padding: 0;}
+li {list-style: none;}
+hr {
+    margin: 8rem 5rem;
+    border: 1px solid #ccc;
+}
+section {
+    margin: 0 0;
+    padding: 0;
+}
+
+/* ========== Home Title ========== */
+.home_title {
+    z-index: 10;
+    padding: 1rem 2rem;
+    position: relative;
+    top: 18rem;
+    left: 15rem;
+    color: #333;
+    background-color: #ccc;
+}
+.home_content {display: flex;}
+.bg {
+    height: 40rem;
+    width: 50rem;
+    background-color: #ccc;
+    opacity: 0.3;
+}
+#homeImg {
+    height: 26rem;
+    position: relative;
+    top: 8rem;
+    left: -10rem;
+}
+
+/* ========== Profile ========== */
+.profile_title {margin-bottom: 5rem;}
+.profile_text {margin-top: 5rem;}
+.profile_text > h2 {margin-bottom: 2rem;}
+
+/* ========== Business ========== */
+#business > img, h3 {text-align: center;}
+.business_title {margin: 2rem 0;}
+#business {
+    padding: 0;
+    margin: 0;
+}
+
+/* ========== Recruitment ========== */
+.recruit_title {
+    z-index: 10;
+    width: 30rem;
+    padding: 1rem 2rem;
+    position: relative;
+    top: 10rem;
+    left: 33rem;
+    color: #333;
+    background-color: #ccc;
+}
+
+/* ========== News ========== */
+#news {margin-bottom: 10rem;}
+#news > li:hover {background-color: #eee;}
+.newsBody {margin-left: 2rem;}
+#news > li {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 5rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+.newsDay {
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+.news_title {
+    background-color: #333;
+    color: #ccc;
+    opacity: 0.5;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+/* ========== Contact ========== */
+#contact > hr {margin: 3rem 0 1rem;}
+#contact {
+    padding: 3rem 0 0;
+    background-color: #333;
+    color: #ccc;
+}
+.contact_img {
+    height: 8rem;
+    width: 10rem;
+    margin: 0 3rem 0 5rem;
+}
+.contact_content {
+    padding: 0;
+    margin: 0;
+}
+
+/* ========== Media Queries ========== */
+
+/* ---------- md ---------- */
+@media (max-width: 768px) {
+
+hr {margin: 5rem 2rem;}
+h1,h2,h3 {font-size: 1.5em;}
+p {font-size: 0.8em;}
+
+/* ========== Home Title ========== */
+.home_title {
+    width: 15rem;
+    position: relative;
+    top: 7rem;
+    left: 10rem;
+}
+.bg {
+    height: 30rem;
+    width: 50rem;
+}
+#homeImg {
+    height: 18rem;
+    position: relative;
+    top: 5rem;
+    left: -15rem;
+}
+
+/* ========== Business ========== */
+#business > li {margin-bottom: 5rem;;}
+
+/* ========== Recruitment ========== */
+.recruit_title {
+    width: 12rem;
+    font-size: 1.3em;
+    padding: 1rem 1rem;
+    position: relative;
+    top: 4rem;
+    left: 12rem;
+}
+
+/* ========== News ========== */
+#news {margin-bottom: 2rem;}
+.news_title {margin-bottom: 1rem;}
+#news > li {
+    padding: 0;
+    margin: 2rem 1rem;
+}
+.newsDay {
+    text-align: center;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+}
+
+/* ---------- sm ---------- */
+@media (max-width: 576px) {
+
+/* ========== Contact ========== */
+.contact_img,.contact_content {margin: 0 auto;}
+
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
