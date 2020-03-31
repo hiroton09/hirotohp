@@ -50,6 +50,7 @@ section {
 }
 
 /* ========== Profile ========== */
+.profile_img {width: 100%;}
 .profile_title {margin-bottom: 5rem;}
 .profile_text {margin-top: 5rem;}
 .profile_text > h2 {margin-bottom: 2rem;}
